@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(193, 255, 234);
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: rgb(193, 255, 234);
+}
+
+nav li {
+  list-style: none;
+  flex: 1 1 0;
+  background: rgb(104, 168, 147);
+}
+
+nav li + li {
+  border-left: 2px solid #000;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 0.75em 1em;
+  font-size: 1.25em;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: underline;
+}
+
+/* Info Card */
+
+.info {
+  color: #000
+}
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 14px
+}
+.info-card {
+  box-sizing: border-box;
+  width: 300px;
+  min-height: 120px;
+  padding: 16px;
+  text-align: left;
+  background: rgba(255,255,255,.65);
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06)
+}
+.info-card h3 {
+  margin: 0 0 12px;
+  min-height: 1em
+}
+.info-card--wide {
+  width: auto;
+  margin: 14px;
+  text-align: center;
+}
