@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(193, 255, 234);
+    background-color:rgb(101, 141, 252);
     font-family: Arial, sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav ul {
 nav li {
   list-style: none;
   flex: 1 1 0;
-  background: rgb(104, 168, 147);
+  background: rgb(226, 229, 255);
 }
 
 nav li + li {
