@@ -1,7 +1,9 @@
 body {
-    background-color:rgb(101, 141, 252);
+    background-color:rgb(83, 139, 224);
     font-family: Arial, sans-serif;
 }
+
+
 
 /* Navigation Bar */
 
@@ -56,7 +58,7 @@ nav a:hover, nav a:focus {
 }
 .info-card {
   box-sizing: border-box;
-  width: 300px;
+  width: 500px;
   min-height: 120px;
   padding: 16px;
   text-align: left;
