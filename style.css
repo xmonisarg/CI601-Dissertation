@@ -1,7 +1,23 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #3585a5;
+}
+
+.background {
+  min-height: 100vh;
+    background: #37a2b1;
+    background: linear-gradient(90deg, rgb(55, 111, 163) 0%, rgb(80, 168, 202) 37%, rgb(108, 194, 206) 100%);
+    padding: 5%;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.background-box {
+  background-color: rgba(231, 231, 231, 0.842);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(41, 41, 41, 0.295);
 }
 
 .page-content {
